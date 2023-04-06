@@ -21,7 +21,7 @@ const NavItem: Component = () => {
         <img
           loading="lazy"
           class="w-16 h-16 rounded-full object-cover"
-          src="/src/assets/profile.png"
+          src="/profile.png"
           alt="myprofile"
         />
         <p class="text-2xl font-semibold">Kusuma Sandi</p>
@@ -104,7 +104,7 @@ const ThirdSection: Component = () => {
           <img
             loading="lazy"
             class="object-cover w-48 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/src/assets/fastify.png"
+            src="/fastify.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
@@ -123,7 +123,7 @@ const ThirdSection: Component = () => {
           <img
             loading="lazy"
             class="object-cover w-32 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/src/assets/express.png"
+            src="/express.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
@@ -142,7 +142,7 @@ const ThirdSection: Component = () => {
           <img
             loading="lazy"
             class="object-cover w-28 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/src/assets/typescript.png"
+            src="/typescript.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
@@ -161,7 +161,7 @@ const ThirdSection: Component = () => {
           <img
             loading="lazy"
             class="object-cover w-32 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/src/assets/prisma.png"
+            src="/prisma.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
@@ -180,7 +180,7 @@ const ThirdSection: Component = () => {
           <img
             loading="lazy"
             class="object-cover w-32 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/src/assets/solid.png"
+            src="/solid.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
@@ -199,7 +199,7 @@ const ThirdSection: Component = () => {
           <img
             loading="lazy"
             class="object-cover w-32 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/src/assets/react.png"
+            src="/react.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
@@ -218,7 +218,7 @@ const ThirdSection: Component = () => {
           <img
             loading="lazy"
             class="object-cover w-32 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/src/assets/tailwind.png"
+            src="/tailwind.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
@@ -237,7 +237,7 @@ const ThirdSection: Component = () => {
           <img
             loading="lazy"
             class="object-cover w-28 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/src/assets/tanstack.png"
+            src="/tanstack.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
@@ -257,7 +257,7 @@ const ThirdSection: Component = () => {
           <img
             loading="lazy"
             class="object-cover w-32 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/src/assets/docker.png"
+            src="/docker.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
@@ -276,7 +276,7 @@ const ThirdSection: Component = () => {
           <img
             loading="lazy"
             class="object-cover w-28 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/src/assets/supabase.png"
+            src="/supabase.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
@@ -296,7 +296,7 @@ const ThirdSection: Component = () => {
           <img
             loading="lazy"
             class="object-cover w-32 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/src/assets/midtrans.png"
+            src="/midtrans.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
