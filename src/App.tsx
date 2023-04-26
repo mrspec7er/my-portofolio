@@ -36,10 +36,10 @@ const NavItem: Component = () => {
         <a href="mailto: wijayakusumasandi@gmail.com" class="hover:underline">
           Email
         </a>
-        <a href="#" class="hover:underline">
+        <a href="https://twitter.com/miracle8oys" class="hover:underline">
           Twitter
         </a>
-        <a href="#" class="hover:underline">
+        <a href="https://www.linkedin.com/in/kusuma-sandi-9646a1208" class="hover:underline">
           LinkedIn
         </a>
       </div>
