@@ -39,7 +39,10 @@ const NavItem: Component = () => {
         <a href="https://twitter.com/miracle8oys" class="hover:underline">
           Twitter
         </a>
-        <a href="https://www.linkedin.com/in/kusuma-sandi-9646a1208" class="hover:underline">
+        <a
+          href="https://www.linkedin.com/in/kusuma-sandi-9646a1208"
+          class="hover:underline"
+        >
           LinkedIn
         </a>
       </div>
@@ -52,14 +55,14 @@ const FirstSection: Component = () => {
     <div class="pt-5 max-w-3xl">
       <p class="md:text-3xl text-2xl font-bold text-gray-100">Hi, I'm Sandi</p>
       <p class="pt-2 md:text-lg text-gray-300">
-        I'm a freelance <span class="font-semibold">fullstack developer</span>{" "}
-        who interested in{" "}
+        I'm a <span class="font-semibold">backend developer</span> who
+        interested in{" "}
         <span class="font-semibold">
-          software architecture, design pattern etc
-        </span>
-        . And i like to learn new technology that can help us achive more{" "}
+          software architecture, design pattern,
+        </span>{" "}
+        and every new stack that can help up accive more{" "}
         <span class="font-semibold">
-          performance, efficiency and simplicity
+          performance, efficiency and simplicity.
         </span>
       </p>
     </div>
@@ -94,10 +97,10 @@ const ThirdSection: Component = () => {
   return (
     <div>
       <p class="md:text-2xl text-xl font-bold text-gray-100 pt-5">
-        Stack That I Use For Software Development{" "}
+        Stack That I Currently Use For Software Development{" "}
       </p>
       <div class="pt-3 lg:-mx-5 flex flex-wrap justify-center flex-col gap-3 md:flex-row">
-        <a
+        {/* <a
           href="https://www.fastify.io/"
           class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
@@ -134,6 +137,26 @@ const ThirdSection: Component = () => {
               Fast, unopinionated, minimalist web framework for Node.js
             </p>
           </div>
+        </a> */}
+        <a
+          href="https://nestjs.com/"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+        >
+          <img
+            loading="lazy"
+            class="object-cover w-32 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
+            src="/nestjs.png"
+            alt="stack-logo"
+          />
+          <div class="flex flex-col justify-between leading-normal">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-teal-600">
+              Nestjs
+            </h5>
+            <p class=" font-normal text-gray-700 dark:text-gray-400">
+              A progressive Node.js framework for building efficient, reliable
+              and scalable server-side applications.
+            </p>
+          </div>
         </a>
         <a
           href="https://www.typescriptlang.org/"
@@ -150,11 +173,12 @@ const ThirdSection: Component = () => {
               Typescript
             </h5>
             <p class=" font-normal text-gray-700 dark:text-gray-400">
-              Strongly typed programming language that builds on JavaScript.
+              Strongly typed programming language that builds on JavaScript,
+              giving you better tooling at any scale.
             </p>
           </div>
         </a>
-        <a
+        {/* <a
           href="https://www.prisma.io/"
           class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
@@ -172,7 +196,7 @@ const ThirdSection: Component = () => {
               Next-generation Node.js and TypeScript ORM
             </p>
           </div>
-        </a>
+        </a> */}
         <a
           href="https://www.solidjs.com/"
           class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
@@ -207,7 +231,8 @@ const ThirdSection: Component = () => {
               React
             </h5>
             <p class=" font-normal text-gray-700 dark:text-gray-400">
-              The library for web and native user interfaces
+              React lets you build user interfaces out of individual pieces
+              called components.
             </p>
           </div>
         </a>
@@ -226,7 +251,8 @@ const ThirdSection: Component = () => {
               Tailwind
             </h5>
             <p class=" font-normal text-gray-700 dark:text-gray-400">
-              Rapidly build modern websites without ever leaving your HTML.
+              A utility-first CSS framework packed with classes that can be
+              composed to build any design, directly in your markup.
             </p>
           </div>
         </a>
@@ -289,7 +315,7 @@ const ThirdSection: Component = () => {
             </p>
           </div>
         </a>
-        <a
+        {/* <a
           href="https://midtrans.com/"
           class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
@@ -307,7 +333,7 @@ const ThirdSection: Component = () => {
               Complete payment solutions tailored for your business
             </p>
           </div>
-        </a>
+        </a> */}
       </div>
     </div>
   );
