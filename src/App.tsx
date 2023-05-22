@@ -8,6 +8,7 @@ const App: Component = () => {
         <FirstSection />
         <SecondSection />
         <ThirdSection />
+        <FourthSection />
         <Footer />
       </div>
     </div>
@@ -335,6 +336,33 @@ const ThirdSection: Component = () => {
           </div>
         </a> */}
       </div>
+    </div>
+  );
+};
+
+const FourthSection: Component = () => {
+  return (
+    <div>
+      <p class="text-xl font-semibold text-gray-100 pt-5">
+        My portofolio project :
+      </p>
+      <ul class="text-gray-300 list-disc pl-5 md:text-lg pt-2">
+        <li>
+          <span class="text-teal-600 hover:underline font-semibold">
+            <a href="https://www.unud.ac.id/">Inventory App</a>
+          </span>{" "}
+          <span>
+            - Boilerplate for creating fullstack app with state management,
+            client-side caching, jwt-auth, fastify middleware, and react.js{" "}
+          </span>
+        </li>
+        <li>
+          Fullstack Web Bootcamp -{" "}
+          <span class="text-teal-600 hover:underline font-semibold">
+            <a href="https://www.binaracademy.com/">Binar Academy</a>
+          </span>
+        </li>
+      </ul>
     </div>
   );
 };
