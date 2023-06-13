@@ -9,6 +9,7 @@ const App: Component = () => {
         <SecondSection />
         <ThirdSection />
         <FourthSection />
+        <FifthSection />
         <Footer />
       </div>
     </div>
@@ -57,11 +58,11 @@ const FirstSection: Component = () => {
       <p class="md:text-3xl text-2xl font-bold text-gray-100">Hi, I'm Sandi</p>
       <p class="pt-2 md:text-lg text-gray-300">
         I'm a <span class="font-semibold">backend developer</span> who
-        interested in{" "}
+        passionate about{" "}
         <span class="font-semibold">
           software architecture, design pattern,
         </span>{" "}
-        and every new stack or infrastructure that can help up accive more{" "}
+        and every new stack or infrastructure that can help us achive more{" "}
         <span class="font-semibold">
           performance, efficiency and simplicity.
         </span>
@@ -103,7 +104,7 @@ const ThirdSection: Component = () => {
       <div class="pt-3 lg:-mx-5 flex flex-wrap justify-center flex-col gap-3 md:flex-row">
         {/* <a
           href="https://www.fastify.io/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -120,9 +121,10 @@ const ThirdSection: Component = () => {
             </p>
           </div>
         </a>
+        */}
         <a
           href="https://expressjs.com/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -138,10 +140,10 @@ const ThirdSection: Component = () => {
               Fast, unopinionated, minimalist web framework for Node.js
             </p>
           </div>
-        </a> */}
+        </a>
         <a
           href="https://nestjs.com/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -161,7 +163,7 @@ const ThirdSection: Component = () => {
         </a>
         <a
           href="https://www.typescriptlang.org/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -179,9 +181,29 @@ const ThirdSection: Component = () => {
             </p>
           </div>
         </a>
-        {/* <a
+        <a
+          href="https://aws.amazon.com/lambda/"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+        >
+          <img
+            loading="lazy"
+            class="object-cover w-28 h-auto rounded-lg md:w-20"
+            src="/lambda.png"
+            alt="stack-logo"
+          />
+          <div class="flex flex-col justify-between leading-normal">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-teal-600">
+              Lambda
+            </h5>
+            <p class=" font-normal text-gray-700 dark:text-gray-400">
+              A serverless compute service that lets you run code without
+              provisioning or managing servers
+            </p>
+          </div>
+        </a>
+        <a
           href="https://www.prisma.io/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -197,10 +219,10 @@ const ThirdSection: Component = () => {
               Next-generation Node.js and TypeScript ORM
             </p>
           </div>
-        </a> */}
+        </a>
         <a
           href="https://www.solidjs.com/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -219,7 +241,7 @@ const ThirdSection: Component = () => {
         </a>
         <a
           href="https://react.dev/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -239,7 +261,7 @@ const ThirdSection: Component = () => {
         </a>
         <a
           href="https://tailwindcss.com/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -259,7 +281,7 @@ const ThirdSection: Component = () => {
         </a>
         <a
           href="https://tanstack.com/query/v3/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -279,7 +301,7 @@ const ThirdSection: Component = () => {
         </a>
         <a
           href="https://www.docker.com/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -298,7 +320,7 @@ const ThirdSection: Component = () => {
         </a>
         <a
           href="https://graphql.org/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -318,7 +340,7 @@ const ThirdSection: Component = () => {
         </a>
         {/* <a
           href="https://midtrans.com/"
-          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
+          class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-max flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
@@ -366,6 +388,41 @@ const FourthSection: Component = () => {
             - Teamwork project management tools for managing event organizer
             build with nest.js, graphql, and mongodb{" "}
           </span>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+const FifthSection: Component = () => {
+  return (
+    <div>
+      <p class="text-xl font-semibold text-gray-100 pt-5">My skillset :</p>
+      <ul class="text-gray-300 list-disc pl-5 md:text-lg pt-2 md:flex gap-7">
+        <li>
+          <span class="text-teal-600 hover:underline font-semibold text-base">
+            <a href="/">Serverless Architecture</a>
+          </span>{" "}
+        </li>
+        <li>
+          <span class="text-teal-600 hover:underline font-semibold text-base">
+            <a href="/">Clean code principles, </a>
+          </span>{" "}
+        </li>
+        <li>
+          <span class="text-teal-600 hover:underline font-semibold text-base">
+            <a href="/">Test driven development,</a>
+          </span>{" "}
+        </li>
+        <li>
+          <span class="text-red-500 hover:underline font-semibold text-base">
+            <a href="/">Functional programming,</a>
+          </span>{" "}
+        </li>
+        <li>
+          <span class="text-red-500 hover:underline font-semibold text-base">
+            <a href="/">Message broker</a>
+          </span>{" "}
         </li>
       </ul>
     </div>
