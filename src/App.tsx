@@ -61,7 +61,7 @@ const FirstSection: Component = () => {
         <span class="font-semibold">
           software architecture, design pattern,
         </span>{" "}
-        and every new stack that can help up accive more{" "}
+        and every new stack or infrastructure that can help up accive more{" "}
         <span class="font-semibold">
           performance, efficiency and simplicity.
         </span>
