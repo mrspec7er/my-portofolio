@@ -297,22 +297,22 @@ const ThirdSection: Component = () => {
           </div>
         </a>
         <a
-          href="https://supabase.com/"
+          href="https://graphql.org/"
           class="w-full lg:w-[32%] md:w-[49%] md:h-40 lg:h-40 h-64 flex gap-3 flex-col px-3 py-5 items-center border-2 border-gray-700 rounded-lg md:flex-row hover:scale-105"
         >
           <img
             loading="lazy"
             class="object-cover w-28 h-auto rounded-t-lg md:w-20 md:rounded-none md:rounded-l-lg"
-            src="/supabase.png"
+            src="/graphql.png"
             alt="stack-logo"
           />
           <div class="flex flex-col justify-between leading-normal">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-teal-600">
-              Supabase
+              GraphQL
             </h5>
             <p class=" font-normal text-gray-700 dark:text-gray-400">
-              Backend service provider for Auth, Edge Functions, Realtime
-              subscriptions, and Storage.
+              A query language for APIs and a runtime for fulfilling those
+              queries with your existing data.
             </p>
           </div>
         </a>
@@ -349,7 +349,7 @@ const FourthSection: Component = () => {
       <ul class="text-gray-300 list-disc pl-5 md:text-lg pt-2">
         <li>
           <span class="text-teal-600 hover:underline font-semibold">
-            <a href="https://www.unud.ac.id/">Inventory App</a>
+            <a href="https://github.com/mrspec7er/inventory">Inventory App</a>
           </span>{" "}
           <span>
             - Boilerplate for creating fullstack app with state management,
@@ -357,9 +357,14 @@ const FourthSection: Component = () => {
           </span>
         </li>
         <li>
-          Fullstack Web Bootcamp -{" "}
           <span class="text-teal-600 hover:underline font-semibold">
-            <a href="https://www.binaracademy.com/">Binar Academy</a>
+            <a href="https://github.com/mrspec7er/nest-graphql">
+              Event Organizere Manager
+            </a>
+          </span>{" "}
+          <span>
+            - Teamwork project management tools for managing event organizer
+            build with nest.js, graphql, and mongodb{" "}
           </span>
         </li>
       </ul>
