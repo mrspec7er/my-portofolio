@@ -56,9 +56,25 @@ const FirstSection: Component = () => {
   return (
     <div class="pt-5 max-w-3xl">
       <p class="md:text-3xl text-2xl font-bold text-gray-100">Hi, I'm Sandi</p>
-      <p class="pt-2 md:text-lg text-gray-300">
+      {/* <p class="pt-2 md:text-lg text-gray-300">
         I'm a <span class="font-semibold">backend developer</span> who
         passionate about{" "}
+        <span class="font-semibold">
+          software architecture, design pattern,
+        </span>{" "}
+        and every new stack or infrastructure that can help us achive more{" "}
+        <span class="font-semibold">
+          performance, efficiency and simplicity.
+        </span>
+      </p> */}
+      <p class="pt-2 md:text-lg text-gray-300">
+        I'm a <span class="font-semibold">software engineer</span>, currently
+        word as a <span class="font-semibold">backend developer</span> but i
+        still love to do frontend stuff especially with{" "}
+        <span class="font-semibold">React </span>and{" "}
+        <span class="font-semibold">Solid.js.</span> My goals is to bring
+        agility, efficiency, and computational method to solve real world
+        problem around us
         <span class="font-semibold">
           software architecture, design pattern,
         </span>{" "}
@@ -75,7 +91,7 @@ const SecondSection: Component = () => {
   return (
     <div>
       <p class="text-xl font-semibold text-gray-100 pt-5">
-        My educational background :
+        My Educational Background :
       </p>
       <ul class="text-gray-300 list-disc pl-5 md:text-lg pt-2">
         <li>
@@ -99,7 +115,7 @@ const ThirdSection: Component = () => {
   return (
     <div>
       <p class="md:text-2xl text-xl font-bold text-gray-100 pt-5">
-        Stack That I Currently Use For Software Development{" "}
+        Stack I Use For Software Development{" "}
       </p>
       <div class="pt-3 lg:-mx-5 flex flex-wrap justify-center flex-col gap-3 md:flex-row">
         {/* <a
@@ -366,7 +382,7 @@ const FourthSection: Component = () => {
   return (
     <div>
       <p class="text-xl font-semibold text-gray-100 pt-5">
-        My portofolio project :
+        Portofolio Project :
       </p>
       <ul class="text-gray-300 list-disc pl-5 md:text-lg pt-2">
         <li>
@@ -397,8 +413,8 @@ const FourthSection: Component = () => {
 const FifthSection: Component = () => {
   return (
     <div>
-      <p class="text-xl font-semibold text-gray-100 pt-5">My skillset :</p>
-      <ul class="text-gray-300 list-disc pl-5 md:text-lg pt-2 md:flex gap-7">
+      <p class="text-xl font-semibold text-gray-100 pt-5">Skills :</p>
+      <ul class="text-gray-300 list-disc pl-5 md:text-lg pt-2 grid md:grid-cols-3 grid-cols-2 gap-5 mx-11">
         <li>
           <span class="text-teal-600 hover:underline font-semibold text-base">
             <a href="/">Serverless Architecture</a>
@@ -406,22 +422,32 @@ const FifthSection: Component = () => {
         </li>
         <li>
           <span class="text-teal-600 hover:underline font-semibold text-base">
-            <a href="/">Clean code principles, </a>
+            <a href="/">Clean Code Principles </a>
           </span>{" "}
         </li>
         <li>
           <span class="text-teal-600 hover:underline font-semibold text-base">
-            <a href="/">Test driven development,</a>
+            <a href="/">Test Driven Development</a>
+          </span>{" "}
+        </li>
+        <li>
+          <span class="text-teal-600 hover:underline font-semibold text-base">
+            <a href="/">Event Driven Arcitecture</a>
           </span>{" "}
         </li>
         <li>
           <span class="text-red-500 hover:underline font-semibold text-base">
-            <a href="/">Functional programming,</a>
+            <a href="/">Functional Programming</a>
           </span>{" "}
         </li>
         <li>
           <span class="text-red-500 hover:underline font-semibold text-base">
-            <a href="/">Message broker</a>
+            <a href="/">Websocket </a>
+          </span>{" "}
+        </li>
+        <li>
+          <span class="text-red-500 hover:underline font-semibold text-base">
+            <a href="/">Message Broker</a>
           </span>{" "}
         </li>
       </ul>
