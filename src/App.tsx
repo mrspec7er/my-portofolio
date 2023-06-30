@@ -1,3 +1,4 @@
+import { Motion } from "@motionone/solid";
 import type { Component } from "solid-js";
 
 const App: Component = () => {
@@ -54,6 +55,9 @@ const NavItem: Component = () => {
 
 const FirstSection: Component = () => {
   return (
+    <Motion 
+    animate={{ opacity: [0, 1] }}
+    transition={{ duration: 1, easing: "ease-in-out" }}>
     <div class="pt-5 max-w-3xl">
       <p class="md:text-3xl text-2xl font-bold text-gray-100">Hi, I'm Sandi</p>
       {/* <p class="pt-2 md:text-lg text-gray-300">
@@ -84,6 +88,7 @@ const FirstSection: Component = () => {
         </span>
       </p>
     </div>
+    </Motion>
   );
 };
 
@@ -113,6 +118,10 @@ const SecondSection: Component = () => {
 
 const ThirdSection: Component = () => {
   return (
+    <Motion 
+    animate={{ y: [0, 100, 50, 0], opacity: [0, 0.3, 0.6, 1] }}
+    transition={{duration: 3, delay: 2}}
+  >
     <div>
       <p class="md:text-2xl text-xl font-bold text-gray-100 pt-5">
         Stack I Use For Software Development{" "}
@@ -375,6 +384,7 @@ const ThirdSection: Component = () => {
         </a> */}
       </div>
     </div>
+    </Motion>
   );
 };
 
@@ -412,6 +422,10 @@ const FourthSection: Component = () => {
 
 const FifthSection: Component = () => {
   return (
+    <Motion 
+    animate={{ x: [0, 100, 50, 0], opacity: [0, 0.3, 0.6, 1] }}
+    transition={{duration: 3,delay: 2}}
+  >
     <div>
       <p class="text-xl font-semibold text-gray-100 pt-5">Skills :</p>
       <ul class="text-gray-300 list-disc pl-5 md:text-lg pt-2 grid md:grid-cols-3 grid-cols-2 gap-5 mx-11">
@@ -452,6 +466,7 @@ const FifthSection: Component = () => {
         </li>
       </ul>
     </div>
+  </Motion>
   );
 };
 
